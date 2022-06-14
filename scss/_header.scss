@@ -1,0 +1,32 @@
+header{
+    background-color: chartreuse;
+    .nav{
+        width: 90%;
+        background-color: yellow;
+        margin: 10px auto;
+         .menu{
+                list-style-type: none;
+                padding: 10px;
+                display: flex;
+               flex-direction: row;
+                justify-content: center;
+                    .boton{
+                        padding: 10px;
+                        margin: 10px;
+                        &:hover{
+                            background-color: white;
+                            border-radius: 10px;
+                                }
+            a{
+                text-decoration: none;
+                color: black;
+                &:hover{
+                    font-weight: bold;
+                    color: violet;
+                }
+                
+            }
+        }
+    }
+    }
+}

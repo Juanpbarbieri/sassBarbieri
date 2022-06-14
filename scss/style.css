@@ -1,0 +1,112 @@
+body {
+  background-color: #3e3ecc;
+}
+
+header {
+  background-color: chartreuse;
+}
+
+header .nav {
+  width: 90%;
+  background-color: yellow;
+  margin: 10px auto;
+}
+
+header .nav .menu {
+  list-style-type: none;
+  padding: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+header .nav .menu .boton {
+  padding: 10px;
+  margin: 10px;
+}
+
+header .nav .menu .boton:hover {
+  background-color: white;
+  border-radius: 10px;
+}
+
+header .nav .menu .boton a {
+  text-decoration: none;
+  color: black;
+}
+
+header .nav .menu .boton a:hover {
+  font-weight: bold;
+  color: violet;
+}
+
+main {
+  background-color: yellow;
+}
+
+main h3 {
+  font-family: Arial, Helvetica, sans-serif;
+  color: blue;
+  text-align: center;
+}
+
+main .pConEstilo {
+  font-size: 1.2rem;
+  color: green;
+  line-height: 1.5;
+  text-align: center;
+}
+
+footer {
+  background-color: chartreuse;
+}
+
+footer .nav {
+  width: 100%;
+  background-color: yellow;
+  margin: auto;
+}
+
+footer .nav .menu {
+  list-style-type: none;
+  padding: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+footer .nav .menu .boton {
+  padding: 30px;
+  margin: 30px;
+}
+
+footer .nav .menu .boton:hover {
+  background-color: white;
+  border-radius: 20px;
+}
+
+footer .nav .menu .boton a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  font-size: 1.6rem;
+}
+
+footer .nav .menu .boton a:hover {
+  color: violet;
+}
+/*# sourceMappingURL=style.css.map */
